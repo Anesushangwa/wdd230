@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Libre+Baskerville:wght@700&display=swap');
+
+
+body{
+    font-family: Libre Baskerville;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr   ;
+    grid-gap: 10px;
+    
+    
+    
+  }
+
+  header{
+      background-color: rgba(207, 204, 22, 0.6);
+      box-shadow:3px 3px 3px 3px #CCC;
+      height: 150px;
+      border-radius: 10px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+   img{
+    width: 110px;
+    padding: 15px 15px;
+  
+   }
+
+   h1{
+       text-shadow: 5px 5px 5px #ccc;
+       font-family: Fredericka the Great;
+   }
+   hr{
+     background-color: black;
+   }
+
+  .myname {
+   text-align: center;
+   padding-right: 40px;
+   padding-top: 49px;
+   font-family: Fredericka the Great;
+   text-shadow: 7px 7px 7px #ccc;
+   }
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+
+    
+ 
+}
+
+.lists ul li{
+    padding: 5px;
+}
+.closehr{
+   margin-top: -9px;
+   font-size: 12px;
+   color: #ff0000;
+}
+
+
+footer{
+    background-color: rgba(207, 204, 22, 0.6);
+    box-shadow:3px 3px 3px 3px #CCC;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    padding: auto;
+    
+    font-family: Fredericka the Great;
+     
+    
+}
+
+#updatetime{
+    color: brown;
+}
