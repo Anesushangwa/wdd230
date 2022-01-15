@@ -13,6 +13,7 @@ header{
     
     
   }
+ 
 
   header{
       background-color: rgba(207, 204, 22, 0.6);
@@ -42,7 +43,7 @@ header{
    font-family: Fredericka the Great;
    text-shadow: 7px 7px 7px #ccc;
    }
-.content{
+.contanier{
     max-width: 500px;
     margin: 0 auto;
 
