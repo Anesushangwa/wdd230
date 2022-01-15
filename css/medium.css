@@ -8,12 +8,13 @@ body{
   header{
     background-color: rgba(207, 204, 22, 0.6);
     box-shadow:3px 3px 3px 3px #CCC;
-    height: 150px;
+    height: auto;
     
     border-radius: 10px;
     font-family:Fredericka the Great, Verdana, Geneva, Tahoma, sans-serif ;
     text-align: center;
     margin: 30px;
+    
 }
 
 .content{
@@ -30,31 +31,24 @@ main{
     
  
 }
-@media (max-width: 500px) { 
-    
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr  ;
-        grid-gap: 30px;
-      
-        
-     
-    }
- }
 
- @media (max-width: 300px) { 
-    
-    main{
-        display: grid;
-        grid-template-columns: 1fr   ;
-        grid-gap: 30px;
-      
-        
-     
-    }
- }
+
+ 
 
  @media (max-width: 1000px) { 
+    
+    main{
+        display: grid;
+        grid-template-columns: 1fr  1fr ;
+        grid-gap: 30px;
+      
+        
+     
+    }
+ }
+
+
+ @media (max-width: 500px) { 
     
     main{
         display: grid;
@@ -98,10 +92,11 @@ h4{
 footer{
     background-color: rgba(207, 204, 22, 0.6);
     box-shadow:3px 3px 3px 3px #CCC;
-    height: 70px;
+    height: auto;
     border-radius: 10px;
     text-align: center;
     font-family: Fredericka the Great;
+    
      
     
 }
