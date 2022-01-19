@@ -47,18 +47,18 @@ main{
  }
 
 
- @media (max-width: 500px) { 
+ @media (max-width: 1000px) { 
     
-    main{
-        display: grid;
-        grid-template-columns: 1fr   ;
-        grid-gap: 30px;
-      
-        
-     
+    .last-grid{
+    
+      grid-column: span 2;
+    
+    }
+    img{
+        width: 100%;
     }
  }
-
+ 
 img{
     max-width: 100%;
 }
