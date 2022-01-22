@@ -13,12 +13,21 @@ header{
     
     
   }
+
+  @media (max-width:500px ){
+    header{
+        display: grid;
+        grid-template-columns: 1fr   ;
+        grid-gap: 10px;
+        height: auto;
+    }
+  }
  
 
   header{
       background-color: rgba(207, 204, 22, 0.6);
       box-shadow:3px 3px 3px 3px #CCC;
-      height: 150px;
+      height: auto;
       border-radius: 10px;
       font-family: Georgia, 'Times New Roman', Times, serif;
   }
@@ -64,7 +73,7 @@ header{
 footer{
     background-color: rgba(207, 204, 22, 0.6);
     box-shadow:3px 3px 3px 3px #CCC;
-    height: 70px;
+    height: auto;
     border-radius: 10px;
     text-align: center;
     
