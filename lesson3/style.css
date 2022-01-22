@@ -14,10 +14,11 @@ header{
     background-color: #EBF3FF;
     box-shadow: 3px 3px 3px 3px #180E1B;
     height: auto;
-    width: 100%;
+ 
     border-radius: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    
 
 }
 
@@ -52,6 +53,54 @@ header,footer{
     flex-flow: column;
     align-items: center;
     justify-content: center; 
+   
+}
+
+
+
+
+nav a:hover {
+    background-color: #ccc;
+
+    color: black;
+}
+
+
+
+
+
+header {
+
+    color: white;
+    background-color: #001524;
+    text-align: center;
+    padding: .2rem;
+}
+
+nav {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+ul,
+li,
+ol {
+    font-size: 18px;
+}
+
+
+
+
+nav {
+    background-color: #156160;
+    text-align: center;
+    box-shadow: 0 5px 15px gray;
 }
 
 nav ul {
@@ -63,7 +112,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #ccc;
+    color: white;
     text-align: center;
     padding: 0.70rem;
     text-decoration: none;
@@ -71,8 +120,31 @@ nav ul li a {
 }
 
 
-nav a:hover {
-    background-color: #ff7d00;
 
-    color: black;
+/* large screen */
+@media only screen and (min-width: 992px) {
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
 }
+
+/* medium screen */
+
+@media only screen and (min-width: 768px) {
+
+    nav ul {
+        display: flex;
+    }
+    
+    nav ul li {
+        flex: 1 1 100%;
+    }
+ }
+
+
