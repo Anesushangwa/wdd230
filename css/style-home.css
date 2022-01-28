@@ -3,7 +3,7 @@
 
 
 body{
-    font-family: Libre Baskerville;
+    font-family: Libre Baskerville Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     display: grid;
