@@ -1,5 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
 }
 
 .content{
@@ -23,18 +24,7 @@ header{
 }
 
 
-footer{
-    background-color: #ccc;
-    box-shadow: 3px 3px 3px 3px #CCC;
-    height: auto;
-    border-radius: 10px;
-    text-align: center;
-    
-   
-  
-     
-    
-}
+
 
 
 
@@ -100,6 +90,7 @@ ol {
 nav {
   
     box-shadow: 0 5px 15px gray;
+   
 }
 
 nav ul {
@@ -116,6 +107,7 @@ nav ul li a {
     padding: 0.70rem;
     text-decoration: none;
     font-size: 1rem;
+  
 }
 
 
@@ -123,7 +115,7 @@ a {
     flex: 1;
     background-color: #333;
     color: #fff;
-  
+    height: 100%;
     transition: all 1s ease-out;
   }
   
@@ -156,3 +148,15 @@ a {
  }
 
 
+ footer{
+    background-color: #ccc;
+    box-shadow: 3px 3px 3px 3px #CCC;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    
+   
+  
+     
+    
+}
