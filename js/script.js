@@ -1,6 +1,6 @@
 // const options = {weekday:'long' , day: 'numeric', month: 'long', year: 'numeric' };
 
-const lastmodify = "Last modify:";
+const lastmodify = "Last modified:";
 
 let oLastModif = new Date(document.lastModified);
 
