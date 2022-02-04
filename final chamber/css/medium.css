@@ -60,9 +60,10 @@
         display: none;
     }
 
+  
    
 
-    .company {
+    /* .company {
         display: grid;
         grid: 1fr 1fr / 1fr 2fr;
         text-align: left;
@@ -88,6 +89,6 @@
 
     .contact {
         align-self: center;
-    }
+    } */
 
 }

@@ -23,6 +23,12 @@
       
       
     }
+
+    hr{
+        background-color: black;
+        max-width: 960px;
+        margin: auto;
+    }
     
     .logo {
         width: 10px;
@@ -204,6 +210,7 @@
 
     
     footer {
+        
         text-align: center;
         padding: 1em;
         background-color: #ccc;
@@ -215,8 +222,37 @@
         padding: .5rem;
     }
 
-    .company, .contact{
+    .top-footer {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr  1fr;
+        
+
+    
+      
     }
+    footer{
+        width: 100%;
+    }
+
+ 
+
+    .company  {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-right: 70px;
+    }
+
+
+    .log  {
+        grid-column: 1/2;
+        grid-row: 1/2;
+       
+    }
+
+    .contact {
+        grid-column: 3/4;
+        grid-row: 1;
+       
+    }
+
     
