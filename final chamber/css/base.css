@@ -99,6 +99,7 @@
 
     .navigation a:hover {
         background-color: #f3f3dc ;
+        opacity: 0.6;
        transition: 9sec;
     }
     
