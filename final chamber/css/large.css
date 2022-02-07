@@ -84,6 +84,17 @@
           grid-row: 1/5;
  
       }
+      .spotilight1{
+        
+        background-color:#bee9f5;
+        grid-column: 1/8;
+        grid-row: 1/3;
+    }
+
+    .spotilight2{
+        
+        background-color:#bee9f5;
+    }
       
       .item4{
           grid-column: 1/2;

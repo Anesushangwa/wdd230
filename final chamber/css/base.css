@@ -171,11 +171,11 @@
       /* .spotilight1, .spotilight2, .spotilight3 {
           background-color: aquamarine;
           border-radius: 10px 10px;
-          margin-bottom: 40px;
-          box-shadow: 2px 2px 2px 2px #473232;
+          margin-bottom: 80px;
+         
       
-      } */
-      
+      }
+       */
       
     .item2{
     grid-column: 1/8;
@@ -199,6 +199,8 @@
     .item3{
     grid-column: 1/8;
     grid-row: 8/8;
+    background-color: #bbebf8;
+    box-shadow: 3px 3px 3px #ccc;
     
 
      
@@ -208,12 +210,20 @@
 
     }
     .spotilight1{
-        grid-column: 1/8;
+        
         background-color:#bee9f5;
+        padding: 1rem;
     }
 
     .spotilight2{
-        grid-column: 1/8;
+        
+        background-color:#9fe0f1;
+        padding: 1rem;
+    }
+
+    .spotilight3{
+        background-color:#bee9f5;
+        padding: 1.3rem;
     }
   
     
