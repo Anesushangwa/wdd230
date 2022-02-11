@@ -81,9 +81,9 @@
         
       
       }
-    .grid-container,.item2  picture img{
+    .item2  picture img{
       height: 100%;
-        width: 100%;
+        
      }
 
    
@@ -97,7 +97,7 @@
     
       .item3{
           grid-column: 5/8;
-          grid-row: 1/5;
+          grid-row: 1/4;
  
       }
       .spotilight1{
