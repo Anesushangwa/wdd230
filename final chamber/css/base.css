@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Libre+Baskerville:wght@700&family=Ubuntu+Condensed&display=swap');
+
   body {
-        font-family: 'Outfit', sans-serif;
-        font-size: 16px;
+        
         margin: 0;
         padding: 0;
+      
     }
     
   
@@ -14,13 +16,12 @@
         align-items: center;
         justify-items: center;
         font-size: .7em;
-        background-color: #180E1B;
-        color: white;
-        padding: .6em;
-        margin-bottom: .5rem;
-        grid-column-gap: .8rem;
-        
+        background-color: #78dbf7;
       
+        color: black;
+        margin-bottom: .5rem;
+        grid-column-gap: .7rem;
+        box-shadow: 3px 3px 3px #ccc;
       
     }
 
@@ -39,7 +40,7 @@
     }
     
     button {
-        background-color: #180E1B;
+        background-color: #78dbf7 ;
         color: white;
         border: none;
         font-size: 2em;
@@ -71,11 +72,11 @@
         font-size: 1em;
         top: 15%;
         box-shadow: 1px 1px 30px;
+        z-index: 1;
     }
 
  .grid-container{
-     font-family: cursive;
-    font-size: 12px;
+    font-family: 'Ubuntu Condensed', sans-serif;
     max-width: 960px;
     margin: auto;
  }
@@ -90,7 +91,7 @@
         display: block;
         padding: 0.75rem 2vw;
         text-decoration: none;
-        color: red;
+        color: blue;
         transition: 0.7s;
         font-size: 15px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -151,11 +152,11 @@
     }
 
 
-    .grid-container > div {
+    .grid-container > div  {
         /* background-color: #ccc; */
         text-align: center;
         padding: 20px 0;
-        font-size: 12px;
+        font-size: 20px;
     }
       
 
@@ -177,16 +178,19 @@
       
       }
        */
+
+   
       
     .item2{
     grid-column: 1/8;
     grid-row: 1/3;
-    box-shadow: 3px 3px 3px #ccc;
+   
     
-     /* background-color: #87cbde; */
+    
   
 
     }
+ 
 
     .item1{
     grid-column: 1/8;
@@ -200,38 +204,46 @@
     .item3{
     grid-column: 1/8;
     grid-row: 8/8;
-    background-color: #bbebf8;
-    box-shadow: 3px 3px 3px #ccc;
-    
-
-     
-   
-
- 
+    /* background-color: #bbebf8;
+    box-shadow: 3px 3px 3px #ccc; */
 
     }
     .spotilight1{
         
         background-color:#bee9f5;
-        padding: 1rem;
+        grid-column: 1/8;
+    grid-row: 8/8;
+    
+        
     }
 
     .spotilight2{
         
-        background-color:#9fe0f1;
-        padding: 1rem;
+        background-color: #78dbf7;
+        
     }
 
     .spotilight3{
-        background-color:#bee9f5;
-        padding: 1.3rem;
+        background-color:#87cbde;
+        
+        
     }
-  
+
+    .join-us{
+        background-color: #22caf8;
+        max-width: 300px;
+        margin: auto;
+        height: 30px;
+        padding: 10px 10px;
+
+    }
+    
     
     .item4{
     grid-column: 1/8;
     grid-row: 7/5;
-    background-color:#bee9f5;
+    background-color:  #87cbde;
+  
     box-shadow: 3px 3px 3px #ccc;
 
     }
@@ -246,7 +258,8 @@
     .item5{
         grid-column: 1/8 ;
         grid-row: 7/8 ;
-        background-color:#d3f0f8 ;
+        background-color: #87cbde;
+     
         box-shadow: 3px 3px 3px #ccc;
     
     }
@@ -255,7 +268,8 @@
  .item7{
     grid-column: 1/8;
     box-shadow: 3px 3px 3px #ccc;
-    background-color: #e3f0f3 ;
+    background-color: #87cbde ;
+
 }
     .none{
         display: none;
@@ -266,11 +280,11 @@
       
 
     
-    footer {
+     footer {
         
         text-align: center;
         padding: 1em;
-        background-color: #ccc;
+        background-color: #87cbde;
         color: black;
         
     }
@@ -283,8 +297,8 @@
   
 
     .top-footer {
-        display: grid;
-        grid-template-columns: 1fr 1fr  1fr 1fr;
+        display: block;
+       
         
 
     
@@ -292,7 +306,6 @@
     }
    
 
- 
 
     .company  {
         grid-column: 2/4;
@@ -315,8 +328,40 @@
         font-size: small;
         margin-top: 0.7rem;
        
-    }
+    } 
 
     img{
         max-width: 100%;
     }
+
+    .position-left{
+        position: absolute;
+        top: 170px;
+        font-size: 18px;
+        padding: 10px;
+        background-color: #87cbde;
+     
+        color: black;
+        box-shadow: 3px 3px 3px ;
+    }
+
+
+
+   .position-right{
+    position: absolute;
+     bottom: 110px;
+    right: 16px;
+     font-size: 18px;
+    
+    
+    background-color: #87cbde;
+
+    
+    box-shadow: 3px 3px 3px ;
+
+   }
+      
+   .position-right a {
+       color: black;
+     
+   }

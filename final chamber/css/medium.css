@@ -3,6 +3,7 @@
     header {
         font-size: .7em;
     }
+   
 
     .logo {
         width: 75px;
@@ -23,6 +24,20 @@
    
 
     }
+
+    
+
+    
+    .join-us{
+        background-color: #22caf8;
+        max-width: 300px;
+        margin: auto;
+        height: 30px;
+        padding: 10px 10px;
+        border-radius: 3px;
+
+    }
+    
 
     .item7{
     grid-column: 1/8;
@@ -67,6 +82,58 @@
         max-width: 100%;
     }
 
+    footer {
+        
+        text-align: center;
+        padding: 1em;
+        background-color: #87cbde;
+        color: black;
+       
+        
+    }
+    
+    
+    .wdd-info {
+        padding: .5rem;
+    }
+
   
 
+    .top-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr  1fr 1fr;
+        
+        
+        
+
+    
+      
+    }
+   
+  
+
+    .company  {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        font-size: small;
+   
+    }
+
+
+    .logos {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        
+       
+    }
+ 
+    .contact {
+        grid-column: 3/5;
+        grid-row: 1/2;
+        font-size: small;
+        margin-top: 0.7rem;
+       
+    }
+
+  
 }
