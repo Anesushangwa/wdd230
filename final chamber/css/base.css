@@ -380,3 +380,7 @@
    .spotilight3 img{
        width: 80px;
    }
+
+   .spotilight1, .spotilight2, .spotilight3{
+       box-shadow: 2px 2px 2px  #ccc;
+   }
