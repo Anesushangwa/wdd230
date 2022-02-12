@@ -50,7 +50,7 @@
         display: none;
     }
     
-    .date {
+    .date-center{
         grid-row: 2/3;
         grid-column: 1/5;
         align-self: center;
@@ -83,7 +83,9 @@
     max-width: 960px;
     margin: auto;
  }
-    
+ .cloudy{
+    font-size: 30px;
+    }
     
     .navigation li {
         display: none;
@@ -364,4 +366,17 @@
    .position-right a {
        color: black;
      
+   }
+
+   /* other changes */
+   .spotilight1 img{
+       width: 60px;
+   }
+
+    .spotilight2 img{
+    width: 60px;
+   }
+
+   .spotilight3 img{
+       width: 80px;
    }
