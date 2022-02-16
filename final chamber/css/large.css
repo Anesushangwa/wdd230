@@ -1,6 +1,6 @@
 
 
-@media only screen and (min-width: 830px) {
+@media only screen and (min-width: 900px) {
 
 	header{
         font-size: 1rem;
@@ -33,7 +33,9 @@
 		display: flex;
 		position: relative;
         
+        
 	}
+
 
    
 

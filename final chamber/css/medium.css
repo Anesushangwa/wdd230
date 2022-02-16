@@ -17,10 +17,11 @@
      .grid-container{
          display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        font-size: 12px;
     }
 
     .navigation{
-        top: 12%;
+        top: 1%;
     }
     .item2{
     grid-column: 1/8;
