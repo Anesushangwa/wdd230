@@ -398,8 +398,9 @@
 
     main{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr  ;
         grid-gap: 20px;
+        margin: 0px 15px 15px;
     }
 
     
@@ -408,36 +409,18 @@
  .forth-img,
  .fith-img,
  .sixth-img{
-    width: 500px;
+    width: 100%;
     margin: 0px 0px 20px;
-    box-shadow: 1px 1px 4px 1px #ccc;
+    box-shadow: 1px 1px 4px 1px  #ccc ;
     border-radius: 7px 7px 2px 2px ;
-    background-color:#78dbf7; 
+    background-color:#ccc; 
     font-family:   sans-serif;
     overflow: hidden;
   
  
 }
 
-/* .first-img,
-.sec-img,.third-img,
-.forth-img,
-.fith-img,
-.sixth-img img{
 
-    filter: blur(0.2em);
-
-  }
-
-
-  .first-img,
-.sec-img,.third-img,
-.forth-img,
-.fith-img,
-.sixth-img  img[data-src]{
-    filter: blur(0em);
-    transition: filter 0.5s;
-} */
 
 img[data-src] {
     filter: blur(0.2em);
