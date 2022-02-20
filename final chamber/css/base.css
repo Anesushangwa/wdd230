@@ -437,3 +437,42 @@ img[data-src] {
     padding: .5rem;
 }
 
+
+/* 
+ .first-img,
+ .sec-img,
+  .third-img,
+  .forth-img,
+  .fith-img,
+  .sixth-img,
+  .seveth-img,
+  .eight-img,
+  .nine-img {  
+    
+    overflow: hidden; 
+  } */
+  
+  .inner-img {
+    transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Other styling elements, that are not necessary for the example */
+  
+  .first-img,
+  .sec-img,
+  .third-img,
+  .forth-img,
+  .fith-img,
+  .sixth-img,
+  .seveth-img,
+  .eight-img,
+  .nine-img {
+      
+    display: inline-block;
+    box-sizing: border-box;
+ 
+  }
