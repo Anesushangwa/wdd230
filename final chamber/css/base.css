@@ -337,15 +337,15 @@
         max-width: 100%;
     }
 
-    .position-left{
+    .position-left {
         position: absolute;
         top: 170px;
         font-size: 18px;
         padding: 10px;
         background-color: #87cbde;
-     
         color: black;
         box-shadow: 3px 3px 3px ;
+        z-index: 1;
     }
 
 
