@@ -205,9 +205,10 @@
     height: auto;
     
     margin: 0px 0px 20px;
-    box-shadow: 1px 1px 4px 1px  #ccc ;
+    box-shadow:2px 2px 9px 2px  #ccc;
     border-radius: 7px 7px 2px 2px ;
-    background-color:#ccc; 
+    background-color:#cef4ff; 
+    
     font-family:   sans-serif;
     overflow: hidden;
     font-size: 12px;
