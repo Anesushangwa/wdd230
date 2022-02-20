@@ -150,4 +150,9 @@
         grid-gap: 20px;
     }
   
+    .centering{
+        text-align: center;
+        padding: .5rem;
+    }
+
 }
