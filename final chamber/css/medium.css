@@ -155,6 +155,12 @@
         padding: .5rem;
     }
 
- 
+    .inner-img {
+        transition: none;
+      }
+      
+      .inner-img:hover {
+        transform: scale(0.0);
+      }
 
 }

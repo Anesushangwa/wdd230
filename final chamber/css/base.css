@@ -424,13 +424,6 @@
 
 
 
-img[data-src] {
-    filter: blur(0.2em);
-  }
-  img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
 
   .centering{
     text-align: center;
@@ -452,13 +445,7 @@ img[data-src] {
     overflow: hidden; 
   } */
   
-  .inner-img {
-    transition: 0.3s;
-  }
-  
-  .inner-img:hover {
-    transform: scale(1.2);
-  }
+
   
   /* Other styling elements, that are not necessary for the example */
   
@@ -476,3 +463,27 @@ img[data-src] {
     box-sizing: border-box;
  
   }
+
+  /* Small Devices, Tablets */
+@media only screen and (max-width : 600px) {
+	.inner-img {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+}

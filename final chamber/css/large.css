@@ -231,5 +231,11 @@
       
       
     
- 
+ .inner-img {
+    transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.2);
+  }
  
