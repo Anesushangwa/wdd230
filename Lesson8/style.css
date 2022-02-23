@@ -13,8 +13,9 @@
 table{
 
   border: thin solid var(--border);
+  
   font-size: 1rem; 
- 
+ box-shadow: 3px 3px 3px  var(--shadow);
   border-collapse: collapse;
   
   
