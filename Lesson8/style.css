@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Libre+Baskerville:wght@700&family=Ubuntu+Condensed&display=swap');
+
 :root {
 --back: #1c8ead;
 --back2: #cfedf5;
@@ -6,14 +8,14 @@
 --border: black;
 --shadow: #ccc;
 --zebra: hsl(0, 0%, 93%, 1);
---fontfamily: tahoma;
+--fontfamily:  'Ubuntu Condensed', sans-serif; 
 }
 
 
 table{
 
   border: thin solid var(--border);
-  
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 1rem; 
  box-shadow: 4px 4px 4px   var(--shadow);
   border-collapse: collapse;
