@@ -404,17 +404,13 @@
     }
 
     
- .first-img,
- .sec-img,.third-img,
- .forth-img,
- .fith-img,
- .sixth-img{
+ picture{
     width: 100%;
     
     margin: 0px 0px 20px;
     box-shadow: 1px 1px 4px 1px  #ccc ;
     border-radius: 7px 7px 2px 2px ;
-    background-color:#ccc; 
+    
     font-family:   sans-serif;
     overflow: hidden;
     font-size: 12px;
