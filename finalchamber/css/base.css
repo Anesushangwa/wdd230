@@ -483,3 +483,28 @@
 		animation: none !important;
 	}
 }
+
+
+/* form */
+
+form{
+display: grid;
+grid-template-columns: 1fr;
+
+background-color: #ccc;
+padding: 2rem;
+
+}
+
+.flex-box{
+    margin: 6px ;
+    width: 30px;
+    
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+  }
+
+  
+ 
