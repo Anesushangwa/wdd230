@@ -501,6 +501,12 @@ padding: 2rem ;
     padding: 0 2%;
     min-height: 20rem;
 }
+form{
+    background-color: #87cbde;
+    padding: 2rem;
+    border-radius: 10px ;
+    box-shadow: 2px 2px 2px #ccc;
+}
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #000;

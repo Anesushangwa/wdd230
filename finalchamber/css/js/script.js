@@ -12,10 +12,10 @@ menubutton.addEventListener('click', () => {
 
 
 
-const lastmodify = "Last modified:";
+// const lastmodify = "Last modified:";
 
-let oLastModif = new Date(document.lastModified);
+// let oLastModif = new Date(document.lastModified);
 
-const text = `${ lastmodify} ${oLastModif }`;
+// const text = `${ lastmodify} ${oLastModif }`;
 
-document.getElementById("updatetime").innerHTML = text;    
+// document.getElementById("updatetime").innerHTML = text;    
