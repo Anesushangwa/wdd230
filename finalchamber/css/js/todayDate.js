@@ -15,9 +15,9 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 // greetings
 const time = new Date().getHours();
 let greeting;
-if (time < 10) {
+if (time < 12) {
   greeting = "Good morning";
-} else if (time < 20) {
+} else if (time < 13) {
   greeting = "Good day";
 } else {
   greeting = "Good evening";

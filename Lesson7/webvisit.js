@@ -23,9 +23,9 @@
    // Current Time and date
    
     
-  todayDisplay.textContent = today.getFullYear()+'-'
-  +(today.getMonth()+1)+'-'
-  +today.getDate()+ '  '
-  + today.getHours() 
-  + ":" + today.getMinutes() 
-  + ":" + today.getSeconds();
+//   todayDisplay.textContent = today.getFullYear()+'-'
+//   +(today.getMonth()+1)+'-'
+//   +today.getDate()+ '  '
+//   + today.getHours() 
+//   + ":" + today.getMinutes() 
+//   + ":" + today.getSeconds();
