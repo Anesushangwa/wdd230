@@ -31,6 +31,12 @@ section{
    
 }
 
+h2{
+  color: 	#F08080;
+}
+p{
+  color: #FA8072;
+}
 
 img {
     width: auto;
@@ -40,19 +46,23 @@ img {
     border: 1px solid #333;
   }
 
-/* 
-  @media only screen and (max-width: 600px) {
-   .cards{
-       display: grid;
-       grid-template-columns: 1fr;
-   }
-  } */
+
 
   @media only screen and (max-width: 900px) {
     /* For desktop: */
     .cards{
         display: grid;
         grid-template-columns: 1fr 1fr ;
+    }
+    
+
+  }
+
+  @media only screen and (max-width: 500px) {
+    /* For desktop: */
+    .cards{
+        display: grid;
+        grid-template-columns:  1fr ;
     }
     
 
