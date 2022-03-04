@@ -69,7 +69,13 @@ function displayProphets(prophet) {
    const p3 = document.createElement('p');
    const p2 = document.createElement('p');
    const p4 = document.createElement('p');
-   
+
+
+
+    image.src = prophet.imageurl;
+    image.setAttribute('alt', prophet.order);
+    card.appendChild(image);
+  
 
     p3.textContent = `  ${prophet.lastname}`;
     card.appendChild(p3);
@@ -83,10 +89,7 @@ function displayProphets(prophet) {
     p2.textContent = ` ${prophet.birthplace}`;
     card.appendChild(p2);
   
-    image.src = prophet.imageurl;
-    image.setAttribute('alt', prophet.order);
-    card.appendChild(image);
-  
+   
   
     document.querySelector('div.cards').appendChild(card);
   
