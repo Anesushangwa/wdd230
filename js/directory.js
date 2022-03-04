@@ -67,10 +67,14 @@ function displayProphets(prophet) {
    const p1 = document.createElement('p');
    const p3 = document.createElement('p');
    const p2 = document.createElement('p');
+   const p4 = document.createElement('p');
    const image = document.createElement('img');
 
     p3.textContent = `  ${prophet.lastname}`;
     card.appendChild(p3);
+
+    p4.textContent = `  ${prophet.name}`;
+    card.appendChild(p4);
     
     p1.textContent = `${prophet.birthdate}`;
     card.appendChild(p1);
