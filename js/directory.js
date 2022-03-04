@@ -65,17 +65,17 @@ function displayProphets(prophet) {
     // date of birth , birth place and prophet images
    const card = document.createElement('section');
    const p1 = document.createElement('p');
-   const h2 = document.createElement('h2');
+   const p3 = document.createElement('p');
    const p2 = document.createElement('p');
    const image = document.createElement('img');
 
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    card.appendChild(h2);
+    p3.textContent = `  ${prophet.lastname}`;
+    card.appendChild(p3);
     
-    p1.textContent = `Date of Birth: ${prophet.birthdate}`;
+    p1.textContent = `${prophet.birthdate}`;
     card.appendChild(p1);
 
-    p2.textContent = `Place of birth: ${prophet.birthplace}`;
+    p2.textContent = ` ${prophet.birthplace}`;
     card.appendChild(p2);
   
     image.src = prophet.imageurl;
