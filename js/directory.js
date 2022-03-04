@@ -64,11 +64,12 @@ fetch(requestURL)
 function displayProphets(prophet) {
     // date of birth , birth place and prophet images
    const card = document.createElement('section');
+   const image = document.createElement('img');
    const p1 = document.createElement('p');
    const p3 = document.createElement('p');
    const p2 = document.createElement('p');
-   const p4 = document.createElement('p');
-   const image = document.createElement('img');
+//    const p4 = document.createElement('p');
+   
 
     p3.textContent = `  ${prophet.lastname}`;
     card.appendChild(p3);
