@@ -61,7 +61,7 @@ fetch(requestURL)
  
 
 
-function displayProphets(business) {
+function displaybusineses(business) {
     // date of birth , birth place and prophet images
    const card = document.createElement('section');
    const image = document.createElement('img');
