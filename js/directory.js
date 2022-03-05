@@ -87,7 +87,7 @@ function displayProphets(business) {
     card.appendChild(p1);
 
     // p2.textContent = ` ${business.birthplace}`;
-    // card.appendChild(p2);
+    // card.appendChild(p2) new;
   
    
   
