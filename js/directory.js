@@ -65,7 +65,7 @@ function displaybusineses(business) {
     // date of birth , birth place and prophet images
    const card = document.createElement('section');
    const image = document.createElement('img');
-   const p1 = document.createElement('p');
+   const p1 = document.createElement('a');
    const p3 = document.createElement('p');
 //    const p2 = document.createElement('p');
    const p4 = document.createElement('p');
@@ -77,13 +77,13 @@ function displaybusineses(business) {
    card.appendChild(image);
  
 
-    p3.textContent = `  ${business.phonenumber}`;
+    p3.textContent = ` Phone number:  ${business.phonenumber}`;
     card.appendChild(p3);
 
-    p4.textContent = `  ${business.name}`;
+    p4.textContent = ` Location: ${business.name}`;
     card.appendChild(p4);
     
-    p1.textContent = `${business.website}`;
+    p1.textContent = ` Web site: ${business.website}`;
     card.appendChild(p1);
 
     // p2.textContent = ` ${business.birthplace}`;
