@@ -53,41 +53,41 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-  const prophets = jsonObject['prophets'];
+  const busineses = jsonObject['busineses'];
 
-  prophets.forEach(displayProphets);
+  busineses.forEach(displaybusineses);
   });
 
  
 
 
-function displayProphets(prophet) {
+function displayProphets(business) {
     // date of birth , birth place and prophet images
    const card = document.createElement('section');
    const image = document.createElement('img');
    const p1 = document.createElement('p');
    const p3 = document.createElement('p');
-   const p2 = document.createElement('p');
+//    const p2 = document.createElement('p');
    const p4 = document.createElement('p');
 
 
 
-    image.src = prophet.imageurl;
-    image.setAttribute('alt', prophet.order);
-    card.appendChild(image);
-  
+   image.src = business.imageurl;
+   image.setAttribute('alt', business.order);
+   card.appendChild(image);
+ 
 
-    p3.textContent = `  ${prophet.lastname}`;
+    p3.textContent = `  ${business.phonenumber}`;
     card.appendChild(p3);
 
-    p4.textContent = `  ${prophet.name}`;
+    p4.textContent = `  ${business.name}`;
     card.appendChild(p4);
     
-    p1.textContent = `${prophet.birthdate}`;
+    p1.textContent = `${business.website}`;
     card.appendChild(p1);
 
-    p2.textContent = ` ${prophet.birthplace}`;
-    card.appendChild(p2);
+    // p2.textContent = ` ${business.birthplace}`;
+    // card.appendChild(p2);
   
    
   
