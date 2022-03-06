@@ -21,7 +21,7 @@ function displaybusinesses(directoryBusinnes) {
    const card = document.createElement('section');
    const image = document.createElement('img');
    const p1 = document.createElement('p');
-   const p2 = document.createElement('a');
+   const p2 = document.createElement('p');
    const p3 = document.createElement('p');
   
 

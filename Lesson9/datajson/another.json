@@ -2,7 +2,7 @@
     "busineses": [
       {
         "imageurl": "https://zw.myliquidhome.tech/web/images/logo-myliquidhome.png",
-        "name": "Robert Mugabe Rd,  Eastgate Centre, Harare.",
+        "name": "Robert Mugabe Rd,  Eastgate Centre",
         "phonenumber": "077 728 3803",
         "website": "https://zw.liquidhome.tech/"
        
@@ -30,7 +30,7 @@
       },
       {
         "imageurl": "https://www.econet.co.zw/Assets/Images/EconetLogo.svg",
-        "name": "No. 2 Old Mutare Road, Msasa, Harare, Zimbabwe Mailing Address: P.O Box BE 1298, Belvedere, Harare, Zimbabwe",
+        "name": "No. 2 Old Mutare Road, Msasa, Harare",
         "phonenumber": "+263 24 2 757311/9",
         "website": "https://www.econet.co.zw/"
       },
@@ -64,7 +64,7 @@
       ,
       {
         "imageurl": "https://chickenslice.com/wp-content/uploads/2019/11/logo-small.jpg",
-        "name": "Slice Distributors , Slice Center, Number 47, Borrowdale Road, Harare",
+        "name": "Slice Center, Number 47, Borrowdale Road",
         "phonenumber": "(+263) 242 884521, 884510, 884546, 884534",
         "website": "https://chickenslice.com/"
       }

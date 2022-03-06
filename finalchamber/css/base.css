@@ -580,7 +580,7 @@ form label.top input:required:valid{
  /* directory */
 
 
-.display main {
+.cards {
  max-width: 960px;
  margin: 0 auto;
 }
@@ -590,12 +590,14 @@ form label.top input:required:valid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+  
 }
 
 section{
+    
     width: 100%;
     margin: 0.25rem;
-    padding: 0.35rem;
+    padding: 0.34rem;
    border-radius: 10px;
     border: 1px solid #bbb;
     display: flex;
@@ -614,9 +616,9 @@ h2{
  text-align: center;
 }
 
-.display img {
+section img {
     width: 100%;
-    max-width: 200px;
+    max-width: 100px;
     height: 100px;
     background-color: white;
    
