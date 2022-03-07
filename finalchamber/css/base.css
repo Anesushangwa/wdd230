@@ -582,7 +582,7 @@ form label.top input:required:valid{
 
 .cards {
  max-width: 960px;
- margin: 0 auto;
+ margin: 5rem auto;
 }
 
 
@@ -593,9 +593,9 @@ form label.top input:required:valid{
   
 }
 
-section{
+section {
     
-    width: 100%;
+    width: 96%;
     margin: 0.25rem;
     padding: 0.34rem;
    border-radius: 10px;
@@ -603,7 +603,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+   font-size: small;
    background-color: #cef4ff;
 
    
@@ -612,15 +612,13 @@ section{
 h2{
   color: 	#F08080;
 }
-.display a p{
- text-align: center;
-}
+
 
 section img {
     width: 100%;
-    max-width: 100px;
+    width: 100px;
     height: 100px;
-    background-color: white;
+    background-color: #1DA1F2;
    
   }
 
@@ -631,6 +629,9 @@ section img {
     .cards{
         display: grid;
         grid-template-columns: 1fr 1fr ;
+        margin-left: 10px;
+        margin-right: 16px;
+       
     }
     
 
@@ -641,7 +642,10 @@ section img {
     .cards{
         display: grid;
         grid-template-columns:  1fr ;
+        margin-left: 10px;
+        margin-right: 16px;
     }
+   
     
 
   }
