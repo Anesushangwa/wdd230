@@ -83,7 +83,7 @@ function displaybusineses(business) {
     p4.textContent = ` Location: ${business.name}`;
     card.appendChild(p4);
     
-    p1.link = ` Web site: ${business.website}`;
+    p1.textContent = ` Web site: ${business.website}`;
     card.appendChild(p1);
 
 
