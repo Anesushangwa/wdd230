@@ -35,7 +35,6 @@
        
     </header>
    
-    
    
 <div class="grid-container">
     <div class="item1">
@@ -45,7 +44,7 @@
        <p>Join us for  Valentine day Live performance at Harare hall, Monday 14 at 1900hr.</p>
    </div>
     <div class="item2"> 
-        <h2 class="position-left">welcome to Harare <br> Chamber of commerce</h2>
+        <h2 class="position-left"> <span id="greeting"></span> Welcome to Harare <br> Chamber of commerce</h2>
 
         <picture >
        
@@ -85,10 +84,13 @@
     </div>
     </div>  
     <div class="item4"><h4>Weather</h4>
-         <p class="cloudy"> &#x26C5;  Currently: <span id="temp"> 34</span> &#176;F</p>
-         <small>cloudy</small>
+         <p class="weathericon">  Currently: <span id="current-temp"> </span> &#176;C</p>
+         <p><span id="icon-src"></span>
+        </p><figre><img src="" alt="" id="weathericon" /> 
+            <figcaption></figcaption></figue> 
+         
         <p class="line"></p>
-         <p>Wind speed: <span id="speed">8</span></p>
+         <p>Wind speed: <span id="speed"></span></p>
           <p>windChill <span id="windchill"></span></p>
 
     </div>
@@ -125,8 +127,10 @@
     <small id="updatetime"></small>
 </footer>
   <script src="css/js/script.js"></script>
-<script src="windmill.js"></script>
+  <script src="windmill.js"></script>
   <script src="css/js/todayDate.js"></script>
+  <script src="../finalchamber/css/js/weatherrapi.js"></script>
+  
   
 </body>
 </html>
