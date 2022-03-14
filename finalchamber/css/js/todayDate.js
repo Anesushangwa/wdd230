@@ -1,4 +1,4 @@
-const datefield = document.querySelector("date");
+const datefield = document.querySelector("small");
 
 // derive the current date using a date object
 const now = new Date();

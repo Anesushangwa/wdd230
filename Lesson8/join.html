@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="../finalchamber/images/favicon.ico">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../finalchamber/css/base.css">
     <link rel="stylesheet" href="../finalchamber/css/medium.css">
@@ -31,7 +31,7 @@
             </ul>
         </nav>
         
-        <date class="date-center"></date>
+        <small class="date-center"></small>
        
     </header>
 
@@ -42,25 +42,25 @@
 
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label class="top" for="First name">First name:<input name="fname" type="text" required placeholder="First name"></label>
-                <label class="top" for="Last name">Last name: <input  name="Lname" type="text" required placeholder="Last name"></label>
-                <label class="top" for="businessposition"> Bussines position:<input type="text"  name="business" placeholder="Business position"></label>
-                <label class="top" for="Email">Email<input type="email" required placeholder="Email"></label>
-                <label class="top" for="Last name">Phone number: <input  name="Lname" type="number" required placeholder="Phone"></label>
-                <label  class="top" for="Business title"> Business title: <input type="text" placeholder="Business title" required></label>
+                <label class="top" for="Firstname">Firstname:<input name="fname" id="Firstname" type="text" required placeholder="Firstname"></label>
+                <label class="top" for="Lastname">Lastname: <input  name="lname" id="Lastname" type="text" required placeholder="Lastname"></label>
+                <label class="top" for="businessposition"> Bussines position:<input type="text" id="businessposition"  name="business" placeholder="Business position"></label>
+                <label class="top" for="Email">Email<input type="email" required placeholder="Email" id="Email"></label>
+                <label class="top" for="Phonenumber">Phone number: <input  name="phonenumber" id="Phonenumber" type="number" required placeholder="Phone"></label>
+                <label  class="top" for="Businesstitle"> Business title: <input type="text" id="Businesstitle" placeholder="Business title" required></label>
             </fieldset>
 
             <fieldset>
                 <legend>Membershirp Level</legend>
                 <div>Audience</div>
-                <label class="tops" for=""><input type="radio" name="membership" value="member">NP Membership</label>
-                <label class="tops" for=""><input type="radio" name="membership" value="member"> Bronze Membership</label>
-                <label class="tops" for=""><input type="radio" name="membership" value="member" >Silver Membership</label>
-                <label class="tops" for=""><input type="radio" name="membership" value="member">Gold Membership</label>
+                <label class="tops" for="membership1"><input type="radio" name="membership" value="membership" id="membership1">NP Membership</label>
+                <label class="tops" for="membership2"><input type="radio" name="membership" value="membership" id="membership2"> Bronze Membership</label>
+                <label class="tops" for="membership3"><input type="radio" name="membership" value="membership" id="membership3" >Silver Membership</label>
+                <label class="tops" for="membership4"><input type="radio" name="membership" value="membership" id="membership4">Gold Membership</label>
             </fieldset>
              <fieldset>
                  <legend>Massage</legend>
-                 <label class="top" for="">Business description: <textarea name="bsdescription" id="" cols="30" rows="10"></textarea></label>
+                 <label class="top" for="comment">Business description: <textarea name="bsdescription" id="comment" cols="30" rows="10"></textarea></label>
              </fieldset>
             <input type="submit" class="submitbtn" value="save">
         </form>
@@ -75,7 +75,7 @@
   <footer>
     <div class="top-footer">
         <div class="logos">
-            <img src="../finalchamber/images/logo_small_icon_only_inverted.png" alt="Harare chamber of Commerce"  width="60px">
+            <img src="../finalchamber/images/logo_small_icon_only_inverted.png" alt="Harare chamber of Commerce"  >
         </div>
         <div   class="company">
            
@@ -84,10 +84,12 @@
         </div>
         <div class="contact">
 
-          <p> <a href="" class="contact-info"></a>Harare Chamber Of Commerce</a></p>  
-          <p><a href="" class="contact-info"></a>+263 774 9987</a></p>   
-           <p> <a href="" target="blank" class="contact-info"> &#128681; Location Map</a> </p> 
-        </div>
+          
+            <p> <a href="#" class="contact-info"></a>Harare Chamber Of Commerce</p>  
+            <p><a href="#" class="contact-info"></a>+263 774 9987</p>   
+             <p> <a href="#" target="blank" class="contact-info"> &#128681; Location Map</a> </p> 
+          </div>
+        
     </div>
     <hr>
     <div class="wdd-info">&copy;<span id="currentyear"></span> | Anesu shangwa |  Harare</div>

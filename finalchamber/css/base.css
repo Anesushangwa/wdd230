@@ -312,6 +312,11 @@
     
       
     }
+    .logos img{
+        width: 80px;
+    }
+
+   
 
 
     .company  {
@@ -413,7 +418,7 @@
     margin: 0px 0px 20px;
     box-shadow: 1px 1px 4px 1px  #ccc ;
     border-radius: 7px 7px 2px 2px ;
-    
+    text-align: center;
     font-family: 'Ubuntu Condensed', sans-serif;
     overflow: hidden;
     font-size: 12px;
