@@ -204,13 +204,17 @@
     margin: 0px 0px 20px;
     box-shadow:2px 2px 9px 2px  #ccc;
     border-radius: 7px 7px 2px 2px ;
-    background-color:#cef4ff; 
+    background-color: #f8a28f; 
     
     font-family: 'Ubuntu Condensed', sans-serif;
     overflow: hidden;
     font-size: 16px;
   
  
+}
+
+.list-btn{
+    display:block;
 }
 
 picture{

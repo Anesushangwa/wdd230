@@ -292,8 +292,10 @@
         
         text-align: center;
         padding: 1em;
-        background-color: #87cbde;
+        background-color: #ccc;
         color: black;
+        font-size: 16px;
+        font-family: 'Ubuntu Condensed', sans-serif;
         
     }
     
@@ -414,7 +416,7 @@
     
  picture{
     width: 100%;
-    
+   
     margin: 0px 0px 20px;
     box-shadow: 1px 1px 4px 1px  #ccc ;
     border-radius: 7px 7px 2px 2px ;
@@ -629,6 +631,10 @@ section img {
    
   }
 
+ .cards section{
+    background-color: #f8a28f; 
+ }
+
 
 
   @media only screen and (max-width: 900px) {
@@ -655,4 +661,14 @@ section img {
    
     
 
+  }
+
+  #list-btn, #card-btn{
+      display: block;
+  }
+
+  #banners{
+ text-align: center;
+ background-color: #DE3163;
+ font-family: ' Condensed', sans-serif;
   }
