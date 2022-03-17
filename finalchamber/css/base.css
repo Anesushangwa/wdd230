@@ -202,7 +202,7 @@
 
     }
  
-
+block
     .item1{
     grid-column: 1/8;
     grid-row: 5/3;
@@ -516,7 +516,7 @@ padding: 2rem ;
 form{
     background-color: #87cbde;
     padding: 2rem;
-    border-radius: 10px ;
+   
     box-shadow: 2px 2px 2px #ccc;
 }
 form fieldset {
@@ -663,9 +663,6 @@ section img {
 
   }
 
-  #list-btn, #card-btn{
-      display: block;
-  }
 
   #banners{
  text-align: center;
@@ -682,15 +679,12 @@ grid-auto-columns: 1fr 1fr;
   .green-contact-form form {
        max-width: 960px;
     margin: 5px auto;
-    background-color: rgb(216, 84, 84);
+    background-color: #6495ED;
+    
     
   }
   
-  .title-form {
 
-  
-   
-  } 
   .form-style{
     border: none;
     background-color: transparent;
@@ -700,6 +694,8 @@ grid-auto-columns: 1fr 1fr;
     outline: none;
     
   }
-  .form-box{
 
+
+.card2{
+    margin: 0 20px;
 }
