@@ -1,4 +1,4 @@
-const requestURL = 'wdd230\Lesson9\datajson\data2.json';
+const requestURL = '';
 const cards = document.querySelector('.spotlight-item');
 // const listButton = document.querySelector("#list-btn");
 // const cardButton = document.querySelector("#card-btn");
