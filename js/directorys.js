@@ -1,4 +1,4 @@
-const requestURL = 'http://127.0.0.1:5502/wdd230/Lesson9/datajson/data2.json';
+const requestURL = '  https://anesushangwa.github.io/wdd230/Lesson9/datajson/data2.json';
 const cards = document.querySelector('.spotlight-item');
 // const listButton = document.querySelector("#list-btn");
 // const cardButton = document.querySelector("#card-btn");
